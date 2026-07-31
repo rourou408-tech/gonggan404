@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS work_content_blocks (
+  id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  work_id INTEGER NOT NULL,
+  image_key TEXT NOT NULL,
+  image_type TEXT NOT NULL,
+  body_text TEXT NOT NULL DEFAULT '',
+  sort_order INTEGER NOT NULL DEFAULT 0
+);

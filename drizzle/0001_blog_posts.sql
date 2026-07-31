@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS blog_posts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  title TEXT NOT NULL,
+  content TEXT NOT NULL,
+  image_key TEXT NOT NULL,
+  image_type TEXT NOT NULL,
+  created_at TEXT NOT NULL
+);
